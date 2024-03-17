@@ -1,0 +1,57 @@
+Формат здачі: Домашня робота містить два посилання: на вихідні файли та робочу сторінку на GitHub Pages.
+
+Завантажуй стартові файли (https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/goitacademy/javascript-homework/tree/main/v3/07/src) з готовою розміткою та підключеними файлами скриптів для кожного завдання. Скопіюй їх собі у проєкт. Зверни увагу, що стартові файли знаходяться в папці src. Але для створення живої сторінки на github дуже важливо, щоб файл index.html був в корені проєкту, тобто без додаткових вкладеностей. Тому ти маєш перенести собі в проєкт лише вміст папки src, а сама папка src тобі не потрібна.
+
+Для стилізації розмітки твоїх завдань використовуй цей макет.https://www.figma.com/file/m8k9NQV7qZrtYDCvxfD68B/%D0%94%D0%97-JavaScript?type=design&node-id=0-1&mode=design&t=5dMtUnN59NyVpg7o-0
+
+Завдання 1
+
+
+
+HTML містить список категорій ul#categories.
+
+<ul id="categories">
+  <li class="item">
+    <h2>Animals</h2>
+    <ul>
+      <li>Cat</li>
+      <li>Hamster</li>
+      <li>Horse</li>
+      <li>Parrot</li>
+    </ul>
+  </li>
+  <li class="item">
+    <h2>Products</h2>
+    <ul>
+      <li>Bread</li>
+      <li>Parsley</li>
+      <li>Cheese</li>
+    </ul>
+  </li>
+  <li class="item">
+    <h2>Technologies</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Node.js</li>
+    </ul>
+  </li>
+</ul>
+
+
+
+З використанням властивостей і методів DOM-елементів, напиши скрипт, який:
+
+Порахує й виведе в консоль кількість категорій в ul#categories, тобто елементів li.item.
+Для кожного елемента li.item у списку ul#categories знайде й виведе в консоль текст заголовка елемента (тегу <h2>) і кількість елементів у категорії (усіх <li>, вкладених у нього).
+
+
+На що буде звертати увагу ментор при перевірці:
+
+Кількість категорій, їх назва та кількість елементів отримані за допомогою властивостей і методів DOM-елементів
+Дані за кожною категорією були отримані й виведені в консоль у тілі циклу або методу forEach()
+У консолі має бути виведено наступне повідомлення:
+
+https://s3.eu-north-1.amazonaws.com/lms.goit.files/079087fd-f2fa-4341-9b5e-c6a0eaceb006Untitled.png

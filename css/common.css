@@ -1,0 +1,211 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #ffffff;
+    color: #212121;
+    line-height: 1.5;
+}
+
+button {
+    cursor: pointer;
+}
+
+p a,
+li a {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/* task-1 */
+
+#categories {
+    list-style-type: none;
+}
+
+#categories .item {
+    width: 392px;
+    background-color: #f6f6fe;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+#categories .item:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+#categories .item h2 {
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#categories>.item>ul {
+    padding-left: 0;
+}
+
+#categories>.item>ul>li {
+    min-width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+#categories>.item>ul>li:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+/* task-2 */
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style-type: none;
+}
+
+.gallery li {
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: initial;
+    height: 100%;
+}
+
+/* task-3 */
+
+#name-input {
+    width: 360px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+#name-input::placeholder {
+    color: #2e2f42;
+}
+
+/* task-4 */
+
+.login-form label {
+    color: #2e2f42;
+    display: block;
+}
+
+.login-form label:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.login-form input {
+    width: 360px;
+    height: 40px;
+    display: block;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    background-color: transparent;
+    font-size: 16px;
+    margin-top: 8px;
+    padding-left: 15px;
+}
+
+.login-form button {
+    font-weight: 500;
+    font-size: 16px;
+    min-width: 86px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: 0 solid transparent;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-top: 16px;
+}
+
+/* task-5 */
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.widget p {
+    font-size: 20px;
+}
+
+.change-color {
+    min-width: 148px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 20px;
+    background-color: #4e75ff;
+    border: 0 solid transparent;
+    border-radius: 8px;
+}
+
+/* task-6 */
+
+#controls {
+    background-color: #f6f6fe;
+    width: 486px;
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+}
+
+#controls input {
+    width: 150px;
+    height: 40px;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    background-color: transparent;
+    font-size: 16px;
+    text-align: center;
+}
+
+#controls button {
+    width: 120px;
+    height: 40px;
+    border: 0 solid transparent;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+#controls button[data-create] {
+    background-color: #4e75ff;
+}
+
+#controls button[data-destroy] {
+    background-color: #ff4e4e;
+}
+
+#boxes {
+    width: 486px;
+    min-height: 160px;
+    background-color: #f6f6fe;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 32px;
+}
